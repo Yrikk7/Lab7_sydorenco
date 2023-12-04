@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>
+            Форми
+        </title>
+    </head>
+    <body><center>
+        <h> Анкета </h></center>
+        <form> 
+            <label for="ПІБ">ПІБ</label> <input type="text" id="ПІБ" maxlength="30" size="30" placeholder="Сидоренко Юрій Андрійович" /><br><br>
+            <tegend> мої риси</tegend>
+            <label for="txt"></label><br> <textarea id="txt" placeholder="Які риси мені притаманні"></textarea><br><br>
+            <legend> Стать </legend>
+            <label>                
+                <input type="radio" name = "sex" value="man" checked>
+                Чоловік  
+            </label>
+            <label>
+                <input type="radio" name = "sex" value="woman">
+                Жінка 
+            </label> <br><br>
+            <label for="gr"> Ваша група</label> <select id="gr">
+                <option value="1">301-tn</option>
+                <option value="2">302-tn</option>
+                <option value="3">302-tn</option>
+            </select><br><br>
+            <fieldse>
+                <legend> Які дисципліни вивчаєте? </legend>
+                <label>
+                    <input type="checkbox" id="hy"> 
+                    Вища математика                    
+                </label><br>
+                <label>
+                    <input type="checkbox" id="hy"> 
+                    Українська мова                    
+                </label><br>
+                <label>
+                    <input type="checkbox" id="hy"> 
+                    Дискретна математика                    
+                </label><br>
+                <label>
+                    <input type="checkbox" id="hy"> 
+                    Фізична культура                    
+                </label><br> 
+            </fieldse> 
+            <label>
+                <input type="password" name="pas" maxlength="7">
+                Ваш код  
+            </label><br><br>
+            <label>
+                <input type="file" name="fl" accept="jpg">
+                Фото аттестата 
+            </label><br> <br>           
+            <button type="submit"> Відправити </button> <br>        
+        </form>    
+    </body>
+</html>

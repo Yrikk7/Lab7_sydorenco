@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>
+            Товар
+        </title>
+    </head>
+    <body>        
+            <table width="50%" border="0" bgcolor="pink" align="center" cellpadding="10" cellspacing="3">
+                <tr>
+                    <td align="center">
+                        <form>                
+                            <h><b><font size="6" color="blue">Форма для замовнення товару</font></b></h><br><br><br>
+                            <label>
+                                Введіть номер банківського рахунку
+                                <input type="password" name="pas" maxlength="16" size="20">                
+                            </label><br> <br> 
+                            <label>
+                                Введіть номер користувача
+                                <input type="text" name="nb" maxlength="16" size="20">                
+                            </label><br> <br> 
+                            <label>
+                                Список товарів<br>
+                                <select id="gr" size="4" multiple>
+                                    <option value="1">Морква</option>
+                                    <option value="2">картопля</option>
+                                    <option value="3">помідори</option>
+                                    <option value="4">редиска</option>
+                                    <option value="5">салат</option>
+                                    <option value="6">огірки</option>
+                                    <option value="7">цибуля</option>
+                                    <option value="8">часник</option>
+                                </select><br><br>
+                            </label> 
+                            <label>
+                               Побажання щодо упакування<br>                               
+                               <textarea id="tx" placeholder="немає">               
+                            </label><br> <br> 
+                            <fieldset> 
+                                <legend> Спосіб оплати </legend>
+                            <label>                
+                                <input type="radio" name = "many" value="card" checked>
+                                картою 
+                            </label>
+                            <label>
+                                <input type="radio" name = "many" value=" no_card">
+                                Готівкою 
+                            </label>                               
+                            </fieldset> 
+                            <label>
+                                Додаткова інформація<br>
+                                <select id="res" size="2" multiple>
+                                    <option value="1">Залишок на рахунку</option>
+                                    <option value="2">Список останніх виплат по рахунку</option>                                   
+                                </select><br><br>
+                            </label>                            
+                        </form>  
+                    </td>                    
+                </tr>           
+            </table>                 
+    </body>
+</html>
